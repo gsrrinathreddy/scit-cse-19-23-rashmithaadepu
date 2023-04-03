@@ -13,8 +13,10 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import {Link} from 'react-router-dom';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Checkbox from '@mui/material/Checkbox';
 
-const pages = ['Aboutus','Experience','Hobbies','Projects','Qualification','Skills'];
+const pages = ['Aboutus','Certificates','Contactme','Experience','Hobbies','Projects','Qualification','Skills','Workshop'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function INavbar() {
